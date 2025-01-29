@@ -33,8 +33,8 @@ body {
     padding: 0 1.25rem 0.85rem 1.25rem;
 }
 
-.siderbar ul li {
-    padding: 0.85rem 0;
+.sidebar ul li {
+    padding: 0.55rem 0;
 }
 
 .sidebar nav ul li a {
@@ -44,3 +44,38 @@ body {
     font-size: 0.9rem;
     font-family: 'DM Sans', sans-serif;
 }
+
+.library {
+    background-color: #121212;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0.25rem 0.5rem;
+    color: #B3B3B3;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 0.625rem;
+}
+
+.library .library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button {
+    display: flex;
+    margin-right: 0.625rem;
+    color: #B3B3B3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 1.25rem 0.625rem;
+    gap: 0.2rem;
+}
+
